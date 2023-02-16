@@ -1,0 +1,180 @@
+@media(max-width: 768px){
+
+.header{
+	width: 100%;
+	min-height: 30px;
+	float: left;
+	padding: 7px;
+	position: fixed;
+	z-index: 1111;
+
+}
+
+.menu ul li a{
+	color: #000 !important;
+	padding: 0px 15px !important;
+	position: relative;
+	font-weight: bold;
+
+}
+
+.menu ul li a:before {
+    content: '';
+    position: absolute;
+    width: 0%;
+    height: 100%;
+    border-bottom: 3px solid #e74c3c;
+    transition: 0.5s;
+}
+
+.banner h2{
+	padding: 81% 0 0 0;
+	font-size: 60px;
+	text-transform: uppercase;
+	text-decoration: underline;
+}
+
+
+	.social{
+	width: 90%;
+	height: 20px;
+	float: left;
+	display: flex;
+	justify-content: flex-end;
+	padding: 5px 0 0 0;
+	margin: -50px 0 0 0 ;
+}
+
+.social ul li{
+	float: left;
+}
+
+.social ul li a{
+	background:  red;
+	margin: 0 5px;
+	padding: 3px 5px;
+}
+
+.message a{
+	font-size: 10px;
+}
+
+
+.message label{
+	font-size: 10px;
+}
+
+.ai{
+	width: 100%;
+	height: auto;
+	display: flex;
+	flex-direction: column-reverse;
+}
+
+
+.j2{
+	border: none;
+	text-align: center;
+}
+
+
+.stories{
+	width: 100%;
+	height: auto;
+	float: left;
+	display: block;
+	background-image: linear-gradient(123deg,#1425af 25%,#1d2cb5 25%,#1d2cb5 50%,#1425af 50%,#1425af 75%,#1d2cb5 75%,#1d2cb5 100%);	
+	display: block;
+}
+
+.train{
+	width: 100%;
+	height: auto;
+	float: left;
+	padding: 30px 0 0 0;
+}
+
+
+.trainer {
+    width: 100%;
+   height: auto;
+    float: left;
+    background: #0006;
+}
+
+.header{
+	width: 100%;
+	height: 40px;
+	float: left;
+	padding: 7px;
+	position: fixed;
+	z-index: 1;
+	background: linear-gradient(130deg, #000 50% , red 50%);
+
+}
+.navbar-toggler:not(:disabled):not(.disabled) {
+    cursor: pointer;
+    background: #000;
+}
+
+
+.menu {
+    top: 6% !important;
+    background:#fff6;
+    border-bottom: none;
+}
+
+.label label {
+    color: #fff;
+    background: red;
+    font-weight: bold;
+    font-size: 10px;
+    padding: 5px 5px;
+}
+
+
+.label label a{
+	color: #fff;
+font-size: 10px;
+	padding: 5px 5px;
+}
+
+
+.banner{
+	width: 100%;
+	min-height: 700px;
+	float: left;
+	background: url(../img/banner2.jpg)no-repeat;
+	background-size: cover; 
+}
+
+
+.gallery{
+	width: 100%;
+	height: 800%;
+	float: left;
+	background: 100% 100%;
+
+
+}
+
+/*.form1{
+	margin: 20px;	
+}*/
+
+
+.ul ul li a {
+    color: #fff;
+    background: #e74c3c;
+    margin: 0px 1px;
+    text-align: center;
+    padding: 8px 20px;
+    border-radius: 5px;
+}
+
+
+
+
+
+
+}
